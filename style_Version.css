@@ -1,0 +1,13 @@
+body{margin:0;font-family:Arial,sans-serif}
+.hidden{display:none!important}
+.box{max-width:480px;margin:40px auto;padding:20px;border:1px solid #ccc;border-radius:6px}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+nav a{margin-right:12px;color:#1565C0;text-decoration:none;font-weight:500}
+nav a.active{font-weight:bold}
+.section{display:none;margin-top:16px}
+.section.active{display:block}
+.btn{padding:8px 16px;border:none;border-radius:4px;cursor:pointer;margin-bottom:12px}
+.green{background:#388E3C;color:#fff}
+.red{background:#f44336;color:#fff}
+ul{padding-left:20px}
+.error{height:18px;color:#e63946;margin:8px 0}
