@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',()=>{
-  const API_URL = 'https://script.google.com/macros/s/AKfycbxheHKevjLd_zTIVSzBwkYJfvmGWem8-C1H7iZW0Qs7HjdL5BM8lLOpTnes7xnlicew0A/exec';
+  const API_URL = 'https://script.google.com/macros/s/AKfycbzNaCo7FGPjEE5WI-Az1KX-PBSpeofq0uiSPlydroQTWlm1PyoregGots4ZEcfWtjG0oQ/exec';
   const el = id=>document.getElementById(id);
   const api = (action,data={})=> fetch(API_URL,{
     method:'POST',
